@@ -1,0 +1,110 @@
+body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://i.ibb.co/5YgPYP2/20240131-194810.jpg');
+      background-size: cover;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #top-bar {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 3px solid #555;
+    }
+    
+
+    #learn {
+      font-weight: bold;
+      font-family: 'LemonBold', sans-serif;
+      margin-left: 10px;
+    }
+
+.img1 {
+    max-width: 100%;
+}
+#search-popup {
+  display: none;
+}
+ .para {           
+           color: white;
+           margin: 3px;
+           padding: 4px;
+           font-family: 'VT323', monospace;
+           font-weight: 600;
+           text-align: center;
+           }
+ .importance-heading {
+  background-color: rgb(255, 103, 72);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.imports {
+  font-weight: 900;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+ .hr1 {
+    border: 2px solid #000000;  
+ }
+.paralong {
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: left;
+  color: white;
+  margin-left: 10px;
+  margin-right: 6px;
+}
+.chem {
+    font-family: 'Georgia', serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  margin-left: 14px;
+  margin-right: 6px;
+  margin-top: 4px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+#metallurgy-link {
+  color: #fffc15; 
+  text-decoration: none; 
+  cursor: pointer;
+}
+
+#metallurgy-link:hover {
+  color: yellow; 
+  text-decoration: underline; 
+}
+.importanceheading2 {
+  background-color: #4D4D4D;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  }
+.learni {
+    font-size: 25px;
+}
+#searicon {
+  height: 20px;
+  margin-right: 5px;
+  padding: 0px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#searicon:hover {
+  transform: scale(1.2);
+}
+#top-bar:hover #searicon {
+  transform: scale(1);
+}
